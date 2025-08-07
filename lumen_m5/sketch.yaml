@@ -1,0 +1,3 @@
+default_fqbn: m5stack:esp32:m5stack_atom
+board: m5stack:esp32:atom
+port: /dev/ttyUSB0
