@@ -82,7 +82,7 @@ const visFun = (name) => {
         cont.style.visibility = 'hidden';
     }
 }
-document.getElementById('toggleButtonLight').addEventListener('click', () => { visFun('light_vis') });
+// document.getElementById('toggleButtonLight').addEventListener('click', () => { visFun('light_vis') });
 // document.getElementById('toggleButtonTemp').addEventListener('click', () => { visFun('temp_vis') });
 
 const fun = (e) => {
