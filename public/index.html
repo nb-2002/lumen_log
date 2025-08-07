@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+    <script defer src="/__/firebase/8.7.1/firebase-app.js"></script>
+    <script defer src="/__/firebase/8.7.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/8.7.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="src/style.css" />
+    <script src="src/script.js"></script>
+</head>
+<body class="light-mode">
+    <div class="flex justify-content">
+        <div>Hello</div>
+        <button id="toggleButton">toggle button</button>
+    </div>
+    <div class="flex fcol" style="gap:20px">
+
+    <div class="flex">
+        <div class="flex fcol" style="flex-grow:1; flex-basis:0" id="light_vis_0">
+            <div>History</div>
+            <div id="history"></div>
+            <form id="form" class="flex">
+                <input type="text" id="input" style="flex-grow:1"/>
+            </form>
+            <button id="infoButton">Check info</button>
+            <button id="toggleButtonLight">Show ligth</button>
+        </div>
+        <div style="flex-grow:4; flex-basis:0" id="light_vis"> </div>
+    </div>
+
+    </div>
+</body>
+</html>

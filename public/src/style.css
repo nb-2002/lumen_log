@@ -1,0 +1,49 @@
+.flex{
+    display: flex;
+    gap:5px;
+}
+.justify-content{
+    justify-content: space-between;
+}
+.fcol{
+    flex-direction: column;
+}
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+.light-mode {
+    background-color: #f0f0f0;
+    color: #0e0e0e;
+}
+.style-0 {
+    fill: #e200ff;
+    fill-opacity: 0;
+    stroke-width: 2px;
+    stroke: #e200ff;
+}
+.style-1 {
+    fill: #00b72b;
+    fill-opacity: 0;
+    stroke-width: 2px;
+    stroke: #00b72b;
+}
+.style-2 {
+    fill: #b2b700;
+    fill-opacity: 0;
+    stroke-width: 2px;
+    stroke: #b2b700;
+}
+#history {
+    border:1px solid black;
+    height: 250px;
+    overflow-y: auto;
+}
+.dark-mode #history{
+    border:1px solid white;
+}
+.dark-mode button{
+    color: #e0e0e0;
+    background-color: #121212;
+    border:1px solid white;
+}
